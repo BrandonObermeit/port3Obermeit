@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-
+//puts colors acordien movment and word change---------------------------------- 
 $("document").ready(function(){
 
     $(".practice").css("background","purple");
     
-    $("p:first").css("color", "white");
+    $("p:first,second").css("color", "white");
     
     $("div p:last-child").css("background-color", "cyan");
     
@@ -21,7 +21,7 @@ $("document").ready(function(){
 
     
 });
-
+//what the words are when  mouse hover over-------------------------------------
 function mouseOverme(){
     $('h1').html("NO TOUCHY");
 }
