@@ -9,7 +9,7 @@ $("document").ready(function(){
 
     $(".practice").css("background","purple");
     
-    $("p:first,second").css("color", "white");
+    $("p:first").css("color", "white");
     
     $("div p:last-child").css("background-color", "cyan");
     
